@@ -7,7 +7,7 @@ xml-使用dom4j对xml文件进行crud操作
 
 2.dom:Document Object Model,即文档对象模型，是W3C组织推荐的解析XML的一种方式。
 
-sax:Simple API for XML，不是官方标准，单它是xml社区事实上的标准。
+sax:Simple API for XML，不是官方标准，但它是xml社区事实上的标准。
 
 3.XML解析器：Crimson(sun,jdk自带)、Xerces(IBM 最好的解析器)、A elfred2(dom4j)，使用哪种解析器对程序员基本上没有什么影响，我们学习的是解析开发包，解析开发包调用什么样的解析器对程序员没有意义。
 
@@ -28,4 +28,4 @@ javax.xml.parsers包中，定义了几个工厂类，程序员调用这些工程
 
 7.使用DOM解析方式的缺点：整个文档需要全部放入内存，如果是大文件极易出现内存溢出的情况。
 
-使用DOM解析方式的有点：操作速度快。
+使用DOM解析方式的优点：操作速度快。
